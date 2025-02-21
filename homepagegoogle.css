@@ -1,0 +1,83 @@
+:root{
+  --white: aliceblue;
+}
+
+body{
+  background-image: url('/image/beautiful-night-life.jpg') ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Roboto, Arial, sans-serif;
+
+}
+:where(.navbar){
+  display: flex;
+}
+.navbar{
+  justify-content: flex-end;
+}
+.bar-icon, .ikonakun, .gmail, .gambar{
+  margin: 0 0 0 1.5rem;
+}
+.bar-icon, .ikonakun{
+  border-radius: 50%;
+  width:32px;
+  height:32px;
+}
+.bar-icon{
+  background-color: azure;
+}
+.gmail, .gambar{
+  margin-top: 8px;
+  font-size: small;
+}
+.gmail{
+  color: var(--white);
+}
+.gambar{
+  color: var(--white);
+  margin-right: 2rem;
+}
+.leftbottom{
+  
+  /* background-color: black;  */
+  height: 90vh;
+  display: flex;
+  align-items: flex-end;
+  
+}
+.rantai{
+  color: var(--white);
+  font-size:smaller;
+  border-radius: 8px;
+  background-color: black;
+  width: 10rem;
+  /* height: 0.2rem; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0.5rem;
+  
+}
+.author{
+  margin-left: 5px;
+  color: var(--white);
+}
+.bgpencil{
+  
+  
+  margin-left: 1%;
+}
+.bgpencil2{
+  display: flex;
+  justify-content: flex-end;
+  width: 82rem;
+}
+.pensil{
+  display: flex;
+  color: var(--white);
+  width: 2%;
+  background-color: black;
+  padding: 0.3%;
+  padding-right: 0rem;
+  padding-left: 0.5rem;
+  border-radius: 18px;
+}
