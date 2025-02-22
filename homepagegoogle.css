@@ -112,3 +112,11 @@ body{
   justify-content: center;
   /* margin-right: ; */
 }
+.platformoption{
+  color: var(--white);
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin-top: 4%;
+
+}
