@@ -38,12 +38,14 @@ body{
   color: var(--white);
   margin-right: 2rem;
 }
+
+/* footer */
+
 .leftbottom{
-  
-  /* background-color: black;  */
-  height: 90vh;
+  height: 38vh; 
   display: flex;
   align-items: flex-end;
+  /* background-color: black; */
   
 }
 .rantai{
@@ -64,7 +66,6 @@ body{
 }
 .bgpencil{
   
-  
   margin-left: 1%;
 }
 .bgpencil2{
@@ -81,4 +82,33 @@ body{
   padding-right: 0rem;
   padding-left: 0.5rem;
   border-radius: 18px;
+}
+
+/* kontent utama */
+
+/* .contentutama{
+  display: flex;
+  background-color: black;
+  
+} */
+.title{
+  color: var(--white);
+  display: flex;
+  justify-content: center;
+  height: 15vh ;
+  margin-top: 40px;
+
+  background-color: black;
+  /* height:30vh; */
+  align-items:flex-start;
+  font-size: 5rem ;
+}
+.searchbar{
+  margin-top: 4%;
+  color: var(--white);
+  display: flex;
+  background-color: black;
+  /* align-items: center; */
+  justify-content: center;
+  /* margin-right: ; */
 }
