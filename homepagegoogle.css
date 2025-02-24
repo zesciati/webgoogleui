@@ -103,14 +103,32 @@ body{
   align-items:flex-start;
   font-size: 5rem ;
 }
-.searchbar{
+.search-bar{
   margin-top: 4%;
-  color: var(--white);
+  /* color: var(--white); */
   display: flex;
-  background-color: black;
+  background-color: white;
+  margin-left: 20%;
   /* align-items: center; */
-  justify-content: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 900px;
+  border-radius: 30px;
+  border: 1px solid white;
+  /* overflow: hidden; */
   /* margin-right: ; */
+}
+.icon{
+  position: relative;
+  left: 15px;
+  top: 15px;
+}
+.input{
+  /* position: relative; */
+  /* left: 20px; */
+  /* width: 50%; */
+  background-color: transparent;
+  border: none;
 }
 .platformoption{
   color: var(--white);
@@ -118,5 +136,4 @@ body{
   display: flex;
   justify-content: center;
   margin-top: 4%;
-
 }
