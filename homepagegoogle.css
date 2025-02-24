@@ -88,7 +88,7 @@ body{
 
 /* .contentutama{
   display: flex;
-  background-color: black;
+  justify-content: center;
   
 } */
 .title{
@@ -98,9 +98,9 @@ body{
   height: 15vh ;
   margin-top: 40px;
 
-  background-color: black;
+  /* background-color: black; */
   /* height:30vh; */
-  align-items:flex-start;
+  /* align-items:flex-start; */
   font-size: 5rem ;
 }
 .search-bar{
@@ -111,8 +111,8 @@ body{
   margin-left: 20%;
   /* align-items: center; */
   justify-content: space-between;
-  height: 50px;
-  width: 900px;
+  height: 7vh;
+  width: 56.25rem;
   border-radius: 30px;
   border: 1px solid white;
   /* overflow: hidden; */
@@ -124,16 +124,47 @@ body{
   top: 15px;
 }
 .input{
-  /* position: relative; */
-  /* left: 20px; */
-  /* width: 50%; */
+  padding: 0;
   background-color: transparent;
   border: none;
+  word-wrap: break-word;
+  display: flex;
+  flex: 100%;
+  margin-left: 22px;
+  outline: none;
 }
 .platformoption{
   color: var(--white);
-  background-color: black;
+  /* background-color: black; */
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  width: 19rem;
   margin-top: 4%;
+  margin-left: 40%;
+}
+.gsearch{
+  padding: 3%;
+  background-color: transparent;
+  border: none;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 30px;
+  border: 1px solid #C6D4FF;
+
+}
+.lucky{
+  padding: 3%;
+  background-color: transparent;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 30px;
+  border: 1px solid #C6D4FF;
+}
+.goffered{
+  display: flex;
+  justify-content: space-between;
+  /* background-color: darkblue; */
+  width: 18%;
+  margin-left: 40%;
+  color: white;
 }
