@@ -6,7 +6,6 @@ body{
   background-image: url('/image/beautiful-night-life.jpg') ;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-size:100%; */
   font-family: Roboto, Arial, sans-serif;
 
 }
@@ -45,7 +44,6 @@ body{
   height: 38vh; 
   display: flex;
   align-items: flex-end;
-  /* background-color: black; */
   
 }
 .rantai{
@@ -54,7 +52,6 @@ body{
   border-radius: 8px;
   background-color: black;
   width: 10rem;
-  /* height: 0.2rem; */
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 0.5rem;
@@ -87,8 +84,6 @@ body{
 /* kontent utama */
 
 /* .contentutama{
-  display: flex;
-  justify-content: center;
   
 } */
 .title{
@@ -97,26 +92,18 @@ body{
   justify-content: center;
   height: 15vh ;
   margin-top: 40px;
-
-  /* background-color: black; */
-  /* height:30vh; */
-  /* align-items:flex-start; */
   font-size: 5rem ;
 }
 .search-bar{
   margin-top: 4%;
-  /* color: var(--white); */
   display: flex;
   background-color: white;
   margin-left: 20%;
-  /* align-items: center; */
   justify-content: space-between;
   height: 7vh;
   width: 56.25rem;
   border-radius: 30px;
   border: 1px solid white;
-  /* overflow: hidden; */
-  /* margin-right: ; */
 }
 .icon{
   position: relative;
@@ -135,7 +122,6 @@ body{
 }
 .platformoption{
   color: var(--white);
-  /* background-color: black; */
   display: flex;
   justify-content: space-between;
   width: 19rem;
@@ -163,7 +149,6 @@ body{
 .goffered{
   display: flex;
   justify-content: space-between;
-  /* background-color: darkblue; */
   width: 18%;
   margin-left: 40%;
   color: white;
